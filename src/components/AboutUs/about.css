@@ -1,0 +1,104 @@
+
+.about-us{
+    width: 100%;
+    /* margin-left: 25px; */
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+  }
+
+  .aboutHeader{
+      text-align: center;
+      font-size: 40px;
+      background: black;
+      color: white;
+      padding-bottom: 10px;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+  }
+  .aboutbody{
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    height: 500px;
+    width: 25%;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+  }
+  .owner{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    color: black;
+    width: 33%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+  }
+  
+  .owner-image {
+    padding-top: 5px;
+    margin: auto;
+    height: 350px;
+    width: 75%;
+
+  }
+  
+  .owner-info{
+    background: black;
+    color: white;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .weeklyshoe{
+    color: black;
+    text-align: center;
+    height: auto;
+    background: white;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 45px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+  }
+  
+  .shoeOfWeek{
+    padding-top: 5px;
+    width: 300px;
+    height: 200px;
+  }
+  .shoeWeekHeader{
+      line-height: 1.5;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      background: black;
+      color: white;
+      font-weight: bold;
+      font-size: 40px;
+      padding-bottom: 10px;
+      text-align: center;
+
+  }
+
+  @media (max-width: 400px) {
+  }
+
+  @media (max-width: 400px) {}

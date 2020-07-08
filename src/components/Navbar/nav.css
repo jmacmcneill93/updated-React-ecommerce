@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.navbar {
+    background: black;;
+    color: white;
+    overflow: auto;
+    height: 70px;
+}
+.navbar a {
+    font-weight: bold;
+    color: white;
+}
+.navbar h1{
+    float: left;
+}
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+.navbar ul li {
+    float: left;
+}
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.navbar ul li a:hover,
+.navbar ul li a.current{
+    height: 70px;
+    background: white;
+    color: black;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+a {
+    color: white;
+text-decoration: none;
+}
+.navLogo{
+    width: 60px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: -10px;
+    float: left;
+    /* padding-bottom: 10px; */
+}
+
+.logo::before {
+    content: "";
+    opacity: .9;
+    background: url('/images/sneakerhead2.jpg') center/cover;
+    display: inline-block;
+    width: 80px;
+    height: 55px;
+    margin-right: 5px;
+    left: 0;
+    padding-bottom: 10px;
+  }
+
+  .logo {
+    font-size: 50px;
+    color: white;
+  }
+
+  .product-head {
+    color: black;
+  }
