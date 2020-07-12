@@ -2,6 +2,9 @@
 https://5f065e957f0fbed620f30fb8--unruffled-hawking-356b8f.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an ecommerce website that sells shoes and shoe accessories. It was created using ReactJS, HTML and CSS.
+
+This was created during the Road To Hire Program.
 
 ## Available Scripts
 
