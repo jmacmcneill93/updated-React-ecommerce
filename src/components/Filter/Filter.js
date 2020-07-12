@@ -19,10 +19,10 @@ class Filter extends React.Component {
         })
     }
     render() {
-        const {price, type} = this.state;
-        return(
+        const { price, type } = this.state;
+        return (
             <div>
-            <h2 className="product-head">Take a look at some of our products! </h2>
+                <h2 className="product-head">Take a look at some of our products! </h2>
                 <section className="myBtnContainer">
                     <p>Search Products by Type or by Price </p>
                     <select className="productType" value={type} onChange={this.handleDropDown}>
@@ -35,21 +35,21 @@ class Filter extends React.Component {
                         <option value="price0to100">$0 - $100</option>
                         <option value="price100to200">$100 - $200</option>
                         <option value="price200to300">$200 - $300</option>
-                </select>
-            </section>
+                    </select>
+                </section>
 
-                    <div className="productItemContainer">
+                <div className="productItemContainer">
 
-                            {data.map((item) => {
-                                if (price === "default" && type === "default" ) {
-                                  return <ProductItems item={item}  />
-                                } else if (price === item.price || type === item.type ) {
-                                  return <ProductItems item={item}  />
-                                }
-                        })}
+                    {data.map((item) => {
+                        if (price === "default" && type === "default") {
+                            return <ProductItems item={item} />
+                        } else if (price === item.price || type === item.type) {
+                            return <ProductItems item={item} />
+                        }
+                    })}
 
 
-                    </div>
+                </div>
             </div>
         )
     }

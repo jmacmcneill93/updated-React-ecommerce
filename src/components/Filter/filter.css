@@ -1,13 +1,13 @@
-.product-head{
+.product-head {
     color: white;
     font-size: 45px;
 }
 
-.myBtnContainer{
+.myBtnContainer {
     padding-left: 10px;
-   }
+}
 
-   .productType{
+.productType {
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -15,14 +15,14 @@
     height: 25px;
     font-weight: bold;
     font-size: 17px;
-   }
+}
 
-   .productType:hover{
+.productType:hover {
     opacity: .3;
     cursor: pointer;
-   }
+}
 
-   .productPrice{
+.productPrice {
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -31,9 +31,9 @@
     height: 25px;
     font-size: 17px;
     font-weight: bold;
-   }
+}
 
-   .productPrice:hover{
+.productPrice:hover {
     opacity: .3;
     cursor: pointer;
-   }
+}

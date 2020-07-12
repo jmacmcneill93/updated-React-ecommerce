@@ -1,11 +1,8 @@
 body {
   margin: 0;
-  font-family:'Montserrat Bold', sans-serif
-  
+  font-family: 'Montserrat Bold', sans-serif
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-

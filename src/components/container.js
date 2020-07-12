@@ -8,14 +8,14 @@ import Contact from '../components/Contact/Contact';
 
 
 function Container(location) {
-    return (
- 
+  return (
 
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/Products" component={Products} />
-          <Route exact path="/Contact" component={Contact} />
-        </Switch>
+
+    <Switch>
+      <Route exact path="/" component={About} />
+      <Route exact path="/Products" component={Products} />
+      <Route exact path="/Contact" component={Contact} />
+    </Switch>
 
 
   );

@@ -1,5 +1,5 @@
 [
-       {
+    {
         "img": "../images/roshe.jpeg",
         "alt": "Nike Roshe Shoes",
         "productName": "Nike Roshe Premium 9",
@@ -7,8 +7,6 @@
         "productDescription": "The perfect shoe that keeps style while supplying comfort for your workout routines and great for casual wear too.",
         "type": "shoes",
         "price": "price200to300"
-
-
     },
     {
         "img": "../images/running-shoe.jpeg",
@@ -18,7 +16,6 @@
         "productDescription": "Our new breathable fabric provides great airflow along with a fantastic arch support allowing you to run further and more comfortably.",
         "type": "shoes",
         "price": "price0to100"
-
     },
     {
         "img": "images/kyrie-flytrap.jpg",
@@ -28,7 +25,6 @@
         "productDescription": "Step on the court with these new durable light-weight basketball shoes designed by Kyrie Irving.",
         "type": "shoes",
         "price": "price0to100"
-
     },
     {
         "img": "images/kobe1.jpg",
@@ -38,7 +34,6 @@
         "productDescription": "With this external heel cage and Zoom Air cushioning provides the perfect necessities for fast movements and great agility.",
         "type": "shoes",
         "price": "price100to200"
-
     },
     {
         "img": "images/nikeairmax.jpg",
@@ -48,7 +43,6 @@
         "productDescription": "Combining 360 degrees of cushioning and a futuristic design, the new Air Max's deliver a plush look for style-savvy people.",
         "type": "shoes",
         "price": "price200to300"
-
     },
     {
         "img": "images/lebron1.png",
@@ -58,7 +52,6 @@
         "productDescription": "Harness the King's strength when you slip into the new Lebron 17's with the largest heel Max Air unit to date.",
         "type": "shoes",
         "price": "price200to300"
-
     },
     {
         "img": "images/nikekd12.jpeg",
@@ -114,7 +107,4 @@
         "type": "accessories",
         "price": "price0to100"
     }
-
-
 ]
-

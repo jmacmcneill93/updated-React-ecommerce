@@ -41,21 +41,21 @@ class Carousel extends React.Component {
             arrows: true,
             slidesToScroll: 1,
             className: "slides"
-           }
-    return (
-        <div className="carousel-slide">
-        <Slider {...settings}>
-            {photos.map((photo) => {
-                return(
-                    <div>
-                        <img width="100%" src={photo.url}/>
-                    </div>
-                )
-            })}
-
-        </Slider>
-        </div>
-          )
         }
+        return (
+            <div className="carousel-slide">
+                <Slider {...settings}>
+                    {photos.map((photo) => {
+                        return (
+                            <div>
+                                <img width="100%" src={photo.url} />
+                            </div>
+                        )
+                    })}
+
+                </Slider>
+            </div>
+        )
+    }
 }
 export default Carousel;

@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 import './products.css';
 
 
- class Products extends React.Component {
+class Products extends React.Component {
     render() {
         return (
             <div>
