@@ -4,7 +4,6 @@ import About from '../components/AboutUs/about';
 import Products from '../components/ProductsPage/Products';
 import Contact from '../components/Contact/Contact';
 // react routing 
-//do not touch
 
 
 function Container(location) {
