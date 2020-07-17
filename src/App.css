@@ -1,72 +1,26 @@
-/* body {
-  padding-top: 150px;
-
-} */
-
-
 
 @media (max-width: 800px) {
   .navbar {
     display: block;
     color: white;
     overflow: hidden;
-    /* position: fixed; */
-    /* z-index: 10; */
   }
+
   .logo {
     font-size: 25px;
   }
+
   .navbar ul li {
     float: left;
     position: relative;
-    /* margin-right: 10px; */
   }
+
   .carousel-slide {
     margin-bottom: 50px;
     width: 800px;
     float: left;
   }
-  /* .about-us {
-    align-items: center;
-    width: 800px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .aboutbody {
-    padding: 5px;
-    background: white;
-    height: 300px;
-    width: 75%;
-  }
-  .owner {
-    font-weight: bold;
-    padding: 5px;
-    background: white;
-    width: 350px;
-    height: 400px;
-  }
-  .owner-image {
-    height: 300px;
-    width: 250px;
-  }
-  .owner-info {
-    padding: 5px;
-    background: white;
-    width: 75%;
-  }
-  .weeklyshoe {
-    padding: 5px;
-    text-align: center;
-    font-weight: bold;
-    background: white;
-    height: 700px;
-    width: 75%;
-  }
-  .shoeOfWeek {
-    width: 300px;
-    height: 300px;
-  } */
+
   #main-footer {
     display: flex;
     padding: 20px;
@@ -94,24 +48,7 @@
   .nav-container {
     margin-left: 10px;
   }
-  /* .about-us {
-    display: inline-block;
-    align-items: center;
-    width: 100%;
-  }
-  .aboutbody {
-    width: 400px;
-  }
-  .owner {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .owner-image {
-    width: 350px;
-    height: 250px;
-  } */
-  
+
   #features {
     width: 100%;
   }
@@ -125,6 +62,7 @@
     width: 400px;
   }
 }
+
 @media (max-width: 400px) {
   body {
     padding-bottom: 75px;
@@ -150,14 +88,12 @@
   }
   .navbar ul {
     list-style: none;
-    /* padding-right: 20px; */
   }
   .navbar ul {
     list-style: none;
     float: left;
   }
   .navbar ul li {
-    /* float: left; */
     padding: 1px;
     font-size: 10px;
   }
@@ -165,9 +101,11 @@
     display: inline-block;
     padding: .5px;
   }
+
   .logo {
     font-size: 25px;
   }
+
   #main-footer {
     display: flex;
     width: 100%;
@@ -175,12 +113,14 @@
     bottom: 0;
     padding: 5px;
   }
+
   .fa {
     padding: 0px;
     font-size: 20px;
     width: 50px;
     text-decoration: none;
   }
+
   .fa:hover {
     opacity: .3;
     cursor: pointer;
