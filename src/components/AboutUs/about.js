@@ -5,7 +5,7 @@ import Carousel from './slider';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from '../Navbar/Nav';
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 
 
 class about extends React.Component {
