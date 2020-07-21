@@ -33,7 +33,7 @@ class about extends React.Component {
                     </div>
                 </section>
 
-                {/* <Footer /> */}
+                <Footer />
             </div>
         )
     }
